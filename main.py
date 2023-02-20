@@ -1,5 +1,5 @@
 weight=int(input("put your weight in kg:\n"))
 height=int(input("put your height in meter:\n"))
-BMI=int(weight/height**2)
+BMI=int(weight/float(height)**2)
 bmi_org=str(BMI)
 print("Your BMI is\n"+bmi_org)
